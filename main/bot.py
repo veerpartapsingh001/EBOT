@@ -5,7 +5,7 @@ from email.message import EmailMessage
 
 YOUR_EMAIL_ADDRESS = '27veers@gmail.com'
 APP_PASSWORD = 'Veerlaller1!$'
-pdfresume = 'main_resume2.0.pdf'
+pdfresume = 'Resume.pdf'
 with open(pdfresume, 'rb') as doc:
     doc_data = doc.read()
     doc_name = doc.name
